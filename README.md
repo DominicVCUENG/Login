@@ -123,7 +123,7 @@ print(response.json())
 ```python
 import requests
 
-response = requests.delete('http://localhost:5000/products/101')
+response = requests.post('http://localhost:5000/logout')
 print(response.json())
 ```
 
